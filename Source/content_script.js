@@ -35,7 +35,6 @@ function handleText(textNode)
 	v = v.replace(/\bMy god\b/g, "Sertac");
 	v = v.replace(/\bmy God\b/g, "Sertac");
 	v = v.replace(/\bmy god\b/g, "Sertac");
-	v = v.replace(/\bOMG\b/g, "Oh Sertac");
 
 	textNode.nodeValue = v;
 }
